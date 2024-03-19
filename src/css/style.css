@@ -17,28 +17,38 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     width: 444px;
     border-radius: 10%;
-    padding: 30px;
+    padding: 15px;
 }
 
 .titulo{
     font-size: 15px;
     margin-top: 10px;
+    color:hsl(150, 100%, 66%);
 }
 
 .conselho{
     font-size: 20px;
     text-align: center;
+    color:hsl(193, 38%, 86%);
+    margin: 15px;
 }
 
-.butao{
-    width: 30px;
-    height: 30px;
-    background-color: hsl(150, 100%, 66%);
-    border: none;
+.butao{  
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    transform: translateY(50%);
+}
+
+.butao:hover{
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
 }
 
 
@@ -46,7 +56,7 @@ body{
 @media (max-width:768px){
    .conteudo{
     width: auto;
+    margin: 20px;
    }
-
 }
 
